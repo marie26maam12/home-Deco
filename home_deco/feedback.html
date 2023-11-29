@@ -1,0 +1,38 @@
+<section class="client-feedback" id="client-feedback">
+    <h1>Avis Clients</h1>
+    <div class="feedback-form">
+        <h2>Partagez votre expérience</h2>
+        <form action="/submit-feedback" method="post">
+            <div>
+                <label for="name">Votre nom</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+            </div>
+            <div>
+                <label for="rating">Note</label>
+                <select name="rating" id="rating" required>
+                    <option value="" disabled selected hidden>Choisissez une note</option>
+                    <option value="5">5 étoiles</option>
+                    <option value="4">4 étoiles</option>
+                    <option value="3">3 étoiles</option>
+                    <option value="2">2 étoiles</option>
+                    <option value="1">1 étoile</option>
+                </select>
+            </div>
+            <div>
+                <label for="comment">Commentaire</label>
+                <textarea id="comment" name="comment" placeholder="Votre commentaire" required></textarea>
+            </div>
+            <div>
+                <button type="submit">Soumettre</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <section class="contact" id="contact">
+        <!-- Votre formulaire de contact ici -->
+    </section>
+    <h2>Copyright 2022-2023 by Home Deco. All Rights Reserved.</h2>
+    <img src="Images/Toit & logis (2) 1.png" class="logo" alt="Logo Home Deco">
+</footer>
